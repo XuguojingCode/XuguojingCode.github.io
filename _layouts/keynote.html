@@ -89,7 +89,12 @@ layout: default
                       <div class="ds-share-icons-more">
                       </div>
                     </div>
-                                    <!-- Gitalk 评论 start  -->
+                <hr>
+                </div>
+                <!-- 多少 Share end-->
+                {% endif %}
+
+                <!-- Gitalk 评论 start  -->
                 {% if site.gitalk.enable %}
                 <!-- Gitalk link  -->
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
@@ -109,10 +114,6 @@ layout: default
                 </script>
                 {% endif %}
                 <!-- Gitalk end -->
-                <hr>
-                </div>
-                <!-- 多少 Share end-->
-                {% endif %}
 
 
                 <ul class="pager">
