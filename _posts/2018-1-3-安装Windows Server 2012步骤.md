@@ -32,7 +32,7 @@ tags:
 
 ## 4. 创建RAID组
 - 按`需求`/`预算`进行配置RAID `1` | `5` | `6` | `10` | `50` |
-   - [RAID5配置指南](http://axu666.win/2017/12/27/RAID-6-%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/)
+   - [RAID6配置指南](http://axu666.win/2017/12/27/RAID-6-%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/)
 
 ## 5.安装Windows
 - 输入[`产品密钥`](https://baike.baidu.com/link?url=Ugm5W5F0XFpEIwK9soKk1FmD2Ia_MQOxoqwladTWKvxeoFsll77QQSPlMrJcKY2MiNUMMRoAz7y_ysw984OaJiEJHjL5D4IJ-gkTrQgSO9RASFoRO_T0CNMkJIRfgYzH)
