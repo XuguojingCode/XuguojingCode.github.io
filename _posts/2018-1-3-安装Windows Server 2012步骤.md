@@ -13,7 +13,7 @@ tags:
 # Windows Server 2012 R2 安装步骤
 ## 1.准备系统安装盘
 - 准备`Windows Server 2012 R2`镜像文件
-  - 从[MSDN我告诉你](http://msdn.itellyou.)下载
+  - 从[MSDN我告诉你](http://msdn.itellyou.cn)下载
   - **请用[迅雷](http://dl.xunlei.com/)下载**
 - 使用`UltraISO`/`Rufus`制作安装启动盘
   - [UltraISO下载地址](http://www.upantool.com/plus/download.php?open=2&id=517&uhash=ba3d5e297a460492b1a967bf)
