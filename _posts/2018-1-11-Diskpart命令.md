@@ -48,3 +48,6 @@ tags:
 -  **cre par pri size=512000**：*创建主分区，容量为51000MB*
 - **for qui**：*快速格式化*
 - **lis dis**：*显示磁盘列表*
+
+## 思维导图版:
+![Diskpart](https://i.imgur.com/3i9xyGS.png)
