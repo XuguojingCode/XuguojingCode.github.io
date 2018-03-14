@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      RedHat7.0醍醐安Centosyum源
+title:      RedHat7.0替换Centosyum源
 subtitle:   阅读需要10分钟
 date:       2018-3-14
 author:     Axu
