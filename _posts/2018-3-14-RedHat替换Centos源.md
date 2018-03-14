@@ -37,6 +37,7 @@ cd /
 rpm -ivh yum-*
 ```
 3. 新建`repo`配置文件
+
 ```
 [root@Server1 ~]# vim /etc/yum.repos.d/CentOS-Base.repo
 
@@ -83,6 +84,7 @@ enabled=0
 gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-7
 ```
 4. 清除缓存
+
 ```
 [root@Server1 ~]# yum clean all
 Loaded plugins: fastestmirror, product-id, subscription-manager
@@ -91,6 +93,7 @@ Cleaning repos: base extras updates
 Cleaning up everything
 ```
 5. 测试是否安装正常
+
 ```
 [root@Server1 yum.repos.d]# yum -y install httpd
 已加载插件：fastestmirror, product-id, subscription-manager
