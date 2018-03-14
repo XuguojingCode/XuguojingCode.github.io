@@ -12,7 +12,7 @@ tags:
 # RedHat7.0 替换Cent OS 源
 ## 前期准备
 - ***yum文件下载*** 
-  - [在这里下载](ttps://pan.baidu.com/s/1l-Ey3yKputoISVmq2-z1ZA)**提取码:mrxu**
+  - [在这里下载](https://pan.baidu.com/s/1l-Ey3yKputoISVmq2-z1ZA) **提取码:mrxu**
 - ***保证RedHat能联网***
 ```
 [root@Server1 /]# ping www.baidu.com
