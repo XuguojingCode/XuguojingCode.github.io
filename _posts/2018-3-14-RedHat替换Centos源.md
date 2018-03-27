@@ -40,7 +40,7 @@ rpm -ivh yum-*
 
 ```
 [root@Server1 ~]# vim /etc/yum.repos.d/CentOS-Base.repo
-//复制以下内容到CentOS-Base.repo
+//复制以下内容到CentOS-Base.repo,之后按 :wq 保存并退出
 #CentOS-Base.repo
 #
 # The mirror system uses the connecting IP address of the client and the
