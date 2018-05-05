@@ -1,0 +1,47 @@
+---
+layout: post-index
+title: timeline Archive
+description: "An archive of posts sorted by tineline."
+comments: false
+section-type: page
+image:
+  feature: posts_header/abstract-7.jpg
+  credit:
+modified: 2016-02-01
+---
+<!-- 分类 -->
+<ul class="entry-meta inline-list">
+  {% for category in site.categories %}
+  	<li>
+      <a href="#{{ category | first }}" class="tag">
+        <span class="term">{{ category | first }}</span>
+        <span class="count">{{ category | last | size }}</span>
+      </a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% for category in site.categories %}
+	<article>
+	<h2 id="{{ category | first }}" class="tag-heading anchor">{{ category | first }}</h2>
+		<ul>
+        <!-- 根据时间排序 -->
+        {% assign sorted_post = category.last | sort:"modified" %}
+        {% for post in sorted_post reversed %}
+
+
+        <li class="entry-title" style="border-bottom: 1px dashed #000;margin-bottom: 5px;padding-bottom:5px;list-style-type:none;">
+          <div style="/*position: absolute;*/text-align: right;float: right;width: auto;right: 5px;">
+            <time datetime="{{ post.date | date_to_xmlschema }}" style="color: #c8c8c8;">
+              {{ post.date | date: "%B %d, %Y" }}
+            </time>
+          </div>
+          <i class="fa fa-fw fa-file-o" ></i>
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </li>
+
+
+        {% endfor %}
+		</ul>
+	</article><!-- /.hentry -->
+{% endfor %}

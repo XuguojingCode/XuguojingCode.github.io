@@ -1,0 +1,96 @@
+/** jekyll toc  */
+.main-left {
+	margin-top: -280px;
+	float: left;
+	position: relative;
+}
+
+.toc {
+	width: 20%;
+	position: fixed;
+	text-align: left;
+}
+.toc a:hover {
+	font-weight: 700;
+	color:#111112;
+	text-decoration: none;
+}
+.toc a {
+  color:#909092;
+}
+
+
+/** toc scrollspy styles start */
+.toc-nav {
+  /*padding-left: 0;*/
+  margin-bottom: 0;
+  list-style: none;
+}
+.toc-nav > li {
+  position: relative;
+  display: block;
+}
+.toc-nav > li > a {
+  position: relative;
+  display: block;
+  padding: 0px 0px;
+}
+.toc-nav > li > a:hover,
+.toc-nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.toc-nav > li.disabled > a {
+  color: #777;
+}
+.toc-nav > li.disabled > a:hover,
+.toc-nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.toc-nav .open > a,
+.toc-nav .open > a:hover,
+.toc-nav .open > a:focus {
+  background-color: #eee;
+  border-color: #337ab7;
+}
+.toc-nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.toc-nav > li > a > img {
+  max-width: none;
+}
+
+
+.nav-pills > li {
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus{
+  color: #111112;
+  background-color: #F5F5F5;
+},
+.nav-pills > li.active > a:hover {
+  ccolor: #111112;
+  background-color: #F5F5F5;
+}
+.nav-stacked > li {
+  float: none;
+}
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+
+/** toc scrollspy styles end */
